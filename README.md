@@ -7,6 +7,10 @@ This is a web application for Pizza Pap which is a pizza selling venture, that s
 This also aids order tracking on the blockchain and removes cases of query for wrong order delivery experienced by customers and also online shops due to non transparent order records
 
 DEMO LINK [CELO PIZZA DAPP](https://edossolo.github.io/celo-pizza-dapp/)
+
+
+
+
 ##NOTE
 WALLET REQUIRED TO TEST THIS DAPP IS [CELO EXTENSION WALLET](https://chrome.google.com/webstore/detail/celoextensionwallet/kkilomkmpmkbdnfelcpgckmpcaemjcdh?hl=en)
 
