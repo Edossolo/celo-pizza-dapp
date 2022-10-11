@@ -28,7 +28,7 @@ contract PizzaPap {
 
     mapping(address => Order[]) private orders;
 
-    mapping(address => CustomerDetails) private customerDetails;
+    mapping(address => CustomerDetails) public customerDetails;
 
     constructor() {
         owner = msg.sender;
