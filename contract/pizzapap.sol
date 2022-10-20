@@ -12,7 +12,7 @@ contract PizzaPap {
         string crust;
         string[] toppings;
         uint256 total;
-        bool status;
+        bool completed;
     }
 
     struct CustomerDetails {
@@ -54,8 +54,8 @@ contract PizzaPap {
 
     function confirmReceipt(uint256 _orderId) public {
         Order storage _order = orders[msg.sender][_orderId];
-        require(_order.status == false, "Order already Completed");
-        _order.status = true;
+        require(_order.completed == false, "Order already Completed");
+        _order.completed = true;
     }
 
     function getUserOrders(address _address)
